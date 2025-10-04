@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Git & GitHub — Cheat Sheet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">git</div>
+      <div>
+        <h1>Git & GitHub — Cheat Sheet</h1>
+        <p class="lead">Compact, searchable reference — from setup to advanced workflows.</p>
+      </div>
+    </header>
+
+    <div class="controls">
+      <input id="search" class="search" placeholder="Search commands, e.g. clone, rebase, remote..." autofocus />
+      <button class="btn" id="expandAll">Expand all</button>
+      <button class="btn" id="collapseAll">Collapse all</button>
+      <button class="btn" id="print">Print</button>
+    </div>
+
+    <main class="grid" id="grid">
+      <!-- Example section -->
+      <section class="card" data-tags="setup init config user email alias">
+        <h2>Setup & Identity</h2>
+        <div class="meta">Configure git identity and basics</div>
+
+        <pre><code>git config --global user.name "Your Name"</code></pre>
+        <div class="row">
+          <span class="pill">Set username</span>
+          <button class="copy" data-for='git config --global user.name "Your Name"'>Copy</button>
+        </div>
+
+        <pre><code>git config --global user.email "you@example.com"</code></pre>
+        <div class="row">
+          <span class="pill">Set email</span>
+          <button class="copy" data-for='git config --global user.email "you@example.com"'>Copy</button>
+        </div>
+      </section>
+
+      <!-- Add the other sections here in the same way -->
+    </main>
+
+    <footer>
+      Tip: use the search box to quickly find commands. Click "Copy" to copy any command.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
