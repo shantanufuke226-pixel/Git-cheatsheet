@@ -21,7 +21,7 @@ body {
 header { display:flex;align-items:center;gap:16px;margin-bottom:20px; }
 .logo {
   width:56px;height:56px;border-radius:10px;
-  background:linear-gradient(135deg,var(--accent),#2dd4bf);
+  background:linear-gradient(135deg,var(--accent),#95ff00);
   display:flex;align-items:center;justify-content:center;
   color:#04203a;font-weight:700;font-size:18px;
 }
@@ -57,7 +57,7 @@ pre {
 .row { display:flex;gap:8px;align-items:center }
 .pill {
   padding:6px 8px;border-radius:999px;
-  background:rgba(255,255,255,0.02);
+  background:rgba(161, 7, 7, 0.02);
   font-size:12px;color:var(--muted)
 }
 .copy {
