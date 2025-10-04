@@ -23,7 +23,6 @@ search.addEventListener('input', () => {
   });
 });
 
-// Expand/collapse demo effects
 document.getElementById('expandAll').addEventListener('click', () => {
   cards.forEach(c => c.style.boxShadow = '0 10px 30px rgba(0,0,0,0.6)');
   setTimeout(() => cards.forEach(c => c.style.boxShadow = ''), 800);
